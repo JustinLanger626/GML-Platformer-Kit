@@ -6,7 +6,7 @@
     "name": "sInvisibleWall",
     "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Paths",
-    "path": "folders/Paths.yy",
+    "name": "oWall",
+    "path": "folders/oWall.yy",
   },
 }
