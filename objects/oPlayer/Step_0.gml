@@ -1,4 +1,4 @@
-//Core Player Logic
+ //Core Player Logic
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
@@ -76,4 +76,5 @@ if(key_jump && place_meeting(x -1, y, oWall))
 {
 vsp = -9
 hsp = +6
+
 }

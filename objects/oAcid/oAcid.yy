@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWall",
+  "name": "oAcid",
   "spriteId": {
-    "name": "sInvisibleWall",
-    "path": "sprites/sInvisibleWall/sInvisibleWall.yy",
+    "name": "sAcid",
+    "path": "sprites/sAcid/sAcid.yy",
   },
-  "solid": true,
-  "visible": false,
+  "solid": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oWall",
-    "path": "folders/oWall.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
